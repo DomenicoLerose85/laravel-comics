@@ -8,4 +8,5 @@ DC Comics - Home
 
 @section('mainContent')
    <h1>Home</h1> 
+   @dump($fumetti)
 @endsection
