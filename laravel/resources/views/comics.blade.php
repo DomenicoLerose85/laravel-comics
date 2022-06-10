@@ -1,21 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.basic')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DC Comics</title>
-</head>
+@section('pageTitle')
+DC Comics - Comics
+@endsection
 
-<body>
-    @include('partials.header')
-    <main>
-        <h1>Comics</h1>
-    </main>
-    @include('partials/footer')
-
-
-</body>
-
-</html>
+@section('mainContent')
+   <h1>Comics</h1> 
+@endsection
