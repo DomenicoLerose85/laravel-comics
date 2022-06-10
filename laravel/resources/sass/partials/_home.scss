@@ -1,0 +1,14 @@
+.container{
+    max-width: 1200px;
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .col{
+            background-color: rgb(32, 32, 32);
+        }
+    }
+
+
+}
