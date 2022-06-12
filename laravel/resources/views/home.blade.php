@@ -14,6 +14,7 @@ DC Comics - Home
            @foreach ($fumetti  as $fumetti)
             <div class="col">
                 <img src="{{$fumetti['thumb']}}" alt="{{$fumetti['thumb']}}">
+                <h2>{{$fumetti['title']}}</h2>
             </div>
                
            @endforeach

@@ -1,5 +1,6 @@
 .container{
     max-width: 1200px;
+    background-color: rgb(32, 32, 32);
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -7,6 +8,11 @@
         align-items: center;
         .col{
             background-color: rgb(32, 32, 32);
+            width: calc(100% / 6 - 20px);
+            margin: 10px;
+            img{
+                width: 100%;
+            }
         }
     }
 
